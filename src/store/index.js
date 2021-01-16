@@ -4,6 +4,9 @@ export default createStore({
   state: () => ({
     counter: 0,
   }),
+  getters: {
+    getCounter: (state) => state.counter,
+  },
   mutations: {
     add: (state) => {
       state.counter += 1;
