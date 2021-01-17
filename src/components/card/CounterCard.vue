@@ -23,7 +23,7 @@ export default {
       rootCounter: (state) => state.counter,
     }),
     ...mapState({
-      counterCounter: (state) => state.counter.counter,
+      counterCounter: (state) => state.counterModule.counter,
     }),
     ...mapGetters({
       getCounter: COUNTER_GETCOUNTER,

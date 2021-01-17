@@ -4,7 +4,7 @@ import userAuth from '@/store/userAuth';
 
 export default createStore({
   modules: {
-    counter,
+    counterModule: counter,
     userAuth,
   },
   state: () => ({
