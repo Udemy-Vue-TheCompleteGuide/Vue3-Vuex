@@ -1,9 +1,11 @@
 import { createStore } from 'vuex';
 import counter from '@/store/counter';
+import userAuth from '@/store/userAuth';
 
 export default createStore({
   modules: {
     counter,
+    userAuth,
   },
   state: () => ({
     counter: 0,
